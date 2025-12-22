@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/back\ \(2\).jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 100vh;
+    position: relative;
+}
+
+
+.main .box {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+
+
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+   
+
+
+
+
+}
+
+nav img {
+    color: red;
+    height: 10vh;
+    width: 10vw;
+    position: relative;
+    z-index: 1;
+}
+
+
+nav buttton {
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+
+
+}
+
+.hero {
+    height: 80vh;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 1;
+    font-family: "Martel Sans", sans-serif;
+    gap: 10px;
+
+    text-align: center;
+}
+
+.hero> :first-child {
+    font-size: 40px;
+    font-weight: 1000;
+    size: 16px;
+    text-align: center;
+
+}
+
+.hero> :nth-child(2) {
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: center;
+
+
+}
+
+
+.separation {
+    height: 6px;
+    width: 100%;
+    border-top-left-radius: 10% 10%;
+    border-top-right-radius: 10% 10%;
+
+    background: linear-gradient(to right, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1) 84%);
+}
+
+
+.curve {
+    height: 68px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 20%, rgb(48, 29, 250) 60%, rgba(33, 13, 22, 1) 80%);
+
+}
+
+
+
+.main2 {
+    height: max-content;
+}
+
+
+.container {
+    background-color: black;
+
+    justify-content: space-between;
+
+
+    max-width: 80vw;
+    height: max-content;
+    margin: auto;
+
+
+}
+
+.trend {
+    height: 40px;
+    width: 80vw;
+    font-size: 30px;
+    color: white;
+
+
+
+}
+
+
+.poster {
+    width: 80vw;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+
+
+
+
+
+}
+
+.poster::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+/* .arrow {
+    position: fixed;
+    background-color: grey;
+    
+} */
+/* 
+.arrow .button {
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+ */
+
+
+
+
+.poster> :first-child :hover {
+    cursor: pointer;
+
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+
+
+}
+
+.poster> :nth-child(2) :hover {
+    cursor: pointer;
+
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+
+
+}
+.poster> :nth-child(3) :hover {
+    cursor: pointer;
+
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+
+
+}
+.poster> :nth-child(4) :hover {
+    cursor: pointer;
+
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+
+
+}
+.poster> :nth-child(5) :hover {
+    cursor: pointer;
+
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+
+
+}
+.poster> :nth-child(6) :hover {
+    cursor: pointer;
+
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+
+
+}
+.poster> :nth-child(7) :hover {
+    cursor: pointer;
+
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+
+
+}
+.poster> :nth-child(8) :hover {
+    cursor: pointer;
+
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+
+
+}
+.poster> :nth-child(9) :hover {
+    cursor: pointer;
+
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+
+
+}
+
+.poster> :nth-child(10) :hover {
+    cursor: pointer;
+
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+
+
+}
+
+
+
+.more {
+    color: white;
+    font-size: x-large;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+    
+    
+    
+}
+
+
+
+.card h3 {
+    margin: 10px;
+    font-size: 25px;
+}
+
+.card h5 {
+    opacity: 0.8;
+    margin: 10px;
+}
+
+
+
+.card1 {
+    height: 18vw;
+    width: 18vw;
+    background: linear-gradient(to right, rgba(64, 25, 85) 20%, rgb(38, 34, 82) 50%, rgb(64, 25, 85) 80%);
+    
+}
+
+
+.card2 {
+    height: 18vw;
+    width: 18vw;
+    background: linear-gradient(to right, rgba(64, 25, 85) 20%, rgb(38, 34, 82) 50%, rgb(64, 25, 85) 80%);
+}
+
+
+.card3 {
+    height: 18vw;
+    width: 18vw;
+    background: linear-gradient(to right, rgba(64, 25, 85) 20%, rgb(38, 34, 82) 50%, rgb(64, 25, 85) 80%);
+}
+
+
+.card4 {
+    height: 18vw;
+    width: 18vw;
+    background: linear-gradient(to right, rgba(64, 25, 85) 20%, rgb(38, 34, 82) 50%, rgb(64, 25, 85) 80%);
+}
+
+
+.faq {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-size: x-large;
+}
+
+
+
+.info1 {
+    color: white;
+    background-color: rgb(59, 58, 57);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: x-large;
+
+
+}
+
+
+
+.info1 .box1 {
+    margin-left: 10%;
+}
+
+.info1 .box2 {
+    margin-right: 10%;
+}
+
+.info2 {
+    color: white;
+    background-color: rgb(59, 58, 57);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: x-large;
+
+}
+
+
+
+.info2 .box1 {
+    margin-left: 10%;
+}
+
+.info2 .box2 {
+    margin-right: 10%;
+}
+
+.info3 {
+    color: white;
+    background-color: rgb(59, 58, 57);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: x-large;
+
+}
+
+
+
+.info3 .box1 {
+    margin-left: 10%;
+}
+
+.info3 .box2 {
+    margin-right: 10%;
+}
+
+
+
+.info4 {
+    color: white;
+    background-color: rgb(59, 58, 57);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: x-large;
+}
+
+
+
+.info4 .box1 {
+    margin-left: 10%;
+}
+
+.info4 .box2 {
+    margin-right: 10%;
+}
+
+.info5 {
+    color: white;
+    background-color: rgb(59, 58, 57);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: x-large;
+}
+
+
+
+.info5 .box1 {
+    margin-left: 10%;
+}
+
+.info5 .box2 {
+    margin-right: 10%;
+}
+
+
+.info6 {
+    color: white;
+    background-color: rgb(59, 58, 57);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+
+
+
+.info6 .box1 {
+    margin-left: 10%;
+}
+
+.info6 .box2 {
+    margin-right: 10%;
+}
+
+.log {
+    width: 100%;
+    font-size: larger;
+    margin: 10px;
+    color: white;
+    justify-items: center
+    
+}
+
+.login2 div {
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.login2 input {
+    height: 50px;
+    width: 600px;
+     color: white;
+    background-color: rgb(29, 27, 27);
+   border: 2px white;
+   padding-left: 10px;
+   padding-right: 10px;
+    border-radius: 5px;
+    font-size: larger;
+
+}
+
+.login2 button {
+    height: 50px;
+    width: 200px;
+    
+    border-radius: 5px;
+     color: white;
+    background-color: red;
+
+
+}
+
+
+
+
+.login2 :nth-child(1) :hover {
+    cursor: text;
+
+}
+
+
+
+.login2 :nth-child(2) :hover {
+    cursor: pointer;
+    opacity: 0.9;
+
+}
+
+.que {
+    color: rgba(255, 255, 255, 0.514);
+    font-size: larger;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+.extra {
+ 
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+
+.fre a {
+
+color: rgba(255, 255, 255, 0.514);
+display: flex;
+flex-direction: column;
+padding: 10px 0px 10px 0px;
+}
+
+.help a {
+color: rgba(255, 255, 255, 0.514);
+display: flex;
+flex-direction: column;
+padding: 10px 0px 10px 0px;
+
+}
+
+.acc a {
+color: rgba(255, 255, 255, 0.514);
+display: flex;
+flex-direction: column;
+padding: 10px 0px 10px 0px;
+
+}
+
+.mc a {
+color: rgba(255, 255, 255, 0.514);
+display: flex;
+flex-direction: column;
+padding: 10px 0px 10px 0px;
+
+}
+
+.lan {
+    width: 100%;
+    height: 100px;
+   align-content: center;
+}
+
+.loc {
+   color: rgba(255, 255, 255, 0.514);
+
+}
+
+.cap {
+    
+    display: flex;
+    
+    padding: 30px 0px 30px 0px;
+}
+
+.cap .fir {
+    color: rgba(255, 255, 255, 0.514);
+
+}
+
+.cap .sec {
+    color: rgb(0, 0, 255);
+}
+
